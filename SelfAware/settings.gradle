@@ -1,0 +1,6 @@
+rootProject.name = 'SelfAware'
+include 'SelfAwareM'
+findProject(':SelfAwareM')?.name = 'SelfAware'
+rootProject.name = 'SelfAware'
+include 'SelfAwareM'
+
